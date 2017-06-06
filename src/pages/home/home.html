@@ -1,0 +1,51 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-slides pager loop="true" autoplay="true">
+
+        <ion-slide style="background-color: green">
+            <h2>Slide 1</h2>
+        </ion-slide>
+
+        <ion-slide style="background-color: blue">
+            <h2>Slide 2</h2>
+        </ion-slide>
+
+        <ion-slide style="background-color: red">
+            <h2>Slide 3</h2>
+        </ion-slide>
+
+    </ion-slides>
+    <!--<ion-list>
+        <ion-item-sliding>
+        <button ion-item *ngFor="let item of listItems">{{ item }}</button>
+        <ion-item-options side="right">
+      <button ion-button color="primary">
+        <ion-icon name="mail"></ion-icon>
+        Email
+      </button>
+    </ion-item-options>
+        </ion-item-sliding> 
+    </ion-list>-->
+<ion-list>
+  <ion-item-sliding *ngFor="let item of listItems">
+    <ion-item>
+       
+      <h2>{{ item }}</h2>
+    </ion-item> 
+  
+    <ion-item-options  >
+      <button ion-button color="danger" (click)="showConfirm(item)">
+        <ion-icon name="trash"></ion-icon>
+      </button>
+    </ion-item-options>
+  </ion-item-sliding>
+</ion-list>
+</ion-content>

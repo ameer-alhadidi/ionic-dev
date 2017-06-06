@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="G:\development\hybrid_mobile_workshop\lesson7\promo\platforms\android\CordovaLib\src\main\shaders"/></dataSet><dataSet config="debug"><source path="G:\development\hybrid_mobile_workshop\lesson7\promo\platforms\android\CordovaLib\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="G:\development\hybrid_mobile_workshop\lesson7\ionic-dev\platforms\android\CordovaLib\src\main\shaders"/></dataSet><dataSet config="debug"><source path="G:\development\hybrid_mobile_workshop\lesson7\ionic-dev\platforms\android\CordovaLib\src\debug\shaders"/></dataSet></merger>
